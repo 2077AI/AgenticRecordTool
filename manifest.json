@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Agentic Record Tool",
+  "version": "1.0.0",
+  "description": "Chrome extension for recording and replaying user actions",
+  "permissions": [
+    "desktopCapture",
+    "offscreen",
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting",
+    "sidePanel"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "content/content.ts"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "all_frames": false,
+      "run_at": "document_end",
+      "match_about_blank": true
+    }
+  ],
+  "action": {
+     "default_popup": "sidePanel/index.html"
+  },
+  "background": {
+    "service_worker": "background/service-worker.ts"
+  },
+  "host_permissions": [
+    "http://localhost:5173/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts; script-src-elem 'wasm-unsafe-eval'; script-src 'self'",
+    "script-src-elem": [ "wasm-unsafe-eval" ]
+ }
+}

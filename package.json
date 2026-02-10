@@ -1,0 +1,39 @@
+{
+  "name": "extension-recording",
+  "private": true,
+  "version": "1.0.7",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && SKIP_ESLINT=true vite build",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@types/file-saver": "^2.0.7",
+    "file-saver": "^2.0.5",
+    "naive-ui": "^2.41.0",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.13",
+    "xgplayer": "^3.0.22"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
+    "@crxjs/vite-plugin": "^2.0.0-beta.33",
+    "@types/node": "^22.15.21",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "chrome-types": "^0.1.350",
+    "husky": "^9.1.7",
+    "less": "^4.3.0",
+    "less-loader": "^12.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^2.2.8"
+  }
+}
