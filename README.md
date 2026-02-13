@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4.svg?logo=googlechrome)](https://developer.chrome.com/docs/extensions/)
 
-🪐 A Chrome extension for recording web interactions with synchronized video, featuring intelligent task grouping and workflow analysis for agent-driven workflows. Visit our official website for more information 🔗 www.2077ai.com/
+🧩 A Chrome extension for recording web interactions with synchronized video, featuring intelligent task grouping and workflow analysis for agent-driven workflows. 🫟 Visit our official website for more information 👉 www.2077ai.com/
 
 ## 🖥️ ART Main Page Screenshot
 ![ART main page](docs/images/art-main-page.png)
@@ -62,11 +62,13 @@ pnpm run build
 
 4. **Load extension in Chrome:**
 
-- Open Chrome and navigate to chrome://extensions/
-- Enable "Developer mode"
-- Click "Load unpacked" and select the dist directory
+- Open Chrome and navigate to [Chrome Extensions](chrome://extensions)
+- Enable **Developer mode**
+- Click **Load unpacked** and select the **/dist** directory you just built
 
-## 🏗️ Project Structure
+See the complete step-by-step guide in the [User Guide](./docs/user_guide.md)
+
+## 📁 Project Structure
 
 ```text
 agentic-record-tool/
