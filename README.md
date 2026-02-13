@@ -62,7 +62,7 @@ pnpm run build
 
 4. **Load extension in Chrome:**
 
-- Open Chrome and navigate to [Chrome Extensions](chrome://extensions)
+- Open Chrome and navigate to chrome://extensions
 - Enable **Developer mode**
 - Click **Load unpacked** and select the **/dist** directory you just built
 
@@ -121,15 +121,8 @@ Contributions are welcome! Please read our Contributing Guide for details on our
 
 ## 🐛 Reporting Issues
 
-Found a bug or have a feature request? Please check our [issue tracker](https://github.com/2077AI/AgenticRecordTool/issues) and search for existing issues before creating a new one.
+Found a bug or have a feature request? Please check our [Issues](https://github.com/2077AI/AgenticRecordTool/issues) and search for existing issues before creating a new one.
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-## 📞 Support
-
-- [Discussions](https://github.com/2077AI/AgenticRecordTool/discussions)
-- Check our [FAQ](https://github.com/2077AI/AgenticRecordTool/wiki/FAQ) for common questions
-- Email: [contact@2077ai.com](mailto:contact@2077ai.com)
