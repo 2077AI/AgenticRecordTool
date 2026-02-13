@@ -119,6 +119,8 @@ Contributions are welcome! Please read our Contributing Guide for details on our
 4. Push to the branch (git push origin feature/amazing-feature)
 5. Open a Pull Request
 
+See the commit message conventions in [Commit Guidelines](./docs/commit_guidelines.md)
+
 ## 🐛 Reporting Issues
 
 Found a bug or have a feature request? Please check our [Issues](https://github.com/2077AI/AgenticRecordTool/issues) and search for existing issues before creating a new one.
