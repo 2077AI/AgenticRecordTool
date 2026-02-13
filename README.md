@@ -5,13 +5,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4.svg?logo=googlechrome)](https://developer.chrome.com/docs/extensions/)
 
-🪐 A Chrome extension for recording web interactions with synchronized video, featuring intelligent task grouping and workflow analysis for agent-driven workflows. 
+🪐 A Chrome extension for recording web interactions with synchronized video, featuring intelligent task grouping and workflow analysis for agent-driven workflows. Visit our official website for more information 🔗 www.2077ai.com/
 
-⬇️ For more information, visit our official website
-
-🔗 www.2077ai.com/
-
-## 🖥️ Main Page
+## 🖥️ ART Main Page Screenshot
 ![ART main page](docs/images/art-main-page.png)
 
 ## ✨ Features
@@ -47,7 +43,7 @@
 1. **Clone and install dependencies:**
 
 ```bash
-git clone https://github.com/2077AIDATA/AgenticRecordTool.git
+git clone https://github.com/2077AI/AgenticRecordTool.git
 cd AgenticRecordTool
 pnpm install
 ```
@@ -123,7 +119,7 @@ Contributions are welcome! Please read our Contributing Guide for details on our
 
 ## 🐛 Reporting Issues
 
-Found a bug or have a feature request? Please check our [issue tracker](https://github.com/2077AIDATA/AgenticRecordTool/issues) and search for existing issues before creating a new one.
+Found a bug or have a feature request? Please check our [issue tracker](https://github.com/2077AI/AgenticRecordTool/issues) and search for existing issues before creating a new one.
 
 ## 📄 License
 
@@ -132,6 +128,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Support
 
-- [Discussions](https://github.com/2077AIDATA/AgenticRecordTool/discussions)
-- Check our [FAQ](https://github.com/2077AIDATA/AgenticRecordTool/wiki/FAQ) for common questions
+- [Discussions](https://github.com/2077AI/AgenticRecordTool/discussions)
+- Check our [FAQ](https://github.com/2077AI/AgenticRecordTool/wiki/FAQ) for common questions
 - Email: [contact@2077ai.com](mailto:contact@2077ai.com)
