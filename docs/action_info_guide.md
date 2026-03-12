@@ -70,8 +70,7 @@ It records the key data associated with an action.
 
 ## Notes
 
-- This document currently covers only the `info` structure defined in `src/content/content.ts`.
-- If new reported fields are added later, this document should be updated accordingly.
+- We will keep this document updated as the implementation evolves.
 
 ---
 
