@@ -219,12 +219,12 @@ Associations are represented as tuples `[sourceId, targetId]`:
 
 ```json
 [
-  ["subtask_1", "subtask_2"],  // subtask_1 → subtask_2
-  ["subtask_2", "subtask_3"]   // subtask_2 → subtask_3
+  ["subtask_1", "subtask_3"],  // subtask_1 → subtask_3
+  ["subtask_3", "subtask_2"]   // subtask_3 → subtask_2
 ]
 ```
 
-This indicates that `subtask_1` should be completed before `subtask_2`, and `subtask_2` before `subtask_3`.
+This indicates that `subtask_1` should be completed before `subtask_3`, and `subtask_3` before `subtask_2`.
 
 
 ## Additional Resources
