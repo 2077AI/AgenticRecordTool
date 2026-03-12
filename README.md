@@ -21,6 +21,7 @@
 
 - [User Guide](./docs/user_guide.md) - Complete step-by-step guide
 - [Data Format Guide](./docs/data_format.md) - JSON export structure and usage
+- [Action Info Guide](./docs/action_info_guide.md) - Reference for action `info` payload fields
 - [Commit Guidelines](./docs/commit_guidelines.md) - Git commit message conventions
 
 ## 🛠️ Tech Stack
@@ -102,7 +103,9 @@ agentic-record-tool/
     │   └── types.ts
     ├── docs/
     │   ├── user_guide.md
-    │   └── data_format.md
+    │   ├── data_format.md
+    │   ├── action_info_guide.md
+    │   └── commit_guidelines.md
     ├── manifest.json
     ├── vite.config.ts
     ├── tsconfig.json
