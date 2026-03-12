@@ -147,10 +147,10 @@ The exported JSON file has the following top-level structure:
 | Field | Type | Description |
 | ------- | ------ | ------------- |
 | `id` | string | Unique identifier for the action |
-| `type` | string | Action type (see [Action Types](#action-types)) |
+| `type` | string | Action type. See [Action Types](#action-types) |
 | `time` | number | Timestamp in milliseconds from recording start |
 | `url` | string | URL where the action occurred |
-| `info` | object | Detailed information about the action |
+| `info` | object | Detailed information about the action. See the [Action Info Guide](./action_info_guide.md) for field-level details. |
 | `rawHtml` | string or null | HTML snapshot of the target element |
 
 ##### Action Types
@@ -235,4 +235,4 @@ This indicates that `subtask_1` should be completed before `subtask_2`, and `sub
 
 ---
 
-**Last Updated**: February 2026 ｜ **Format Version**: 1.0
+**Last Updated**: March 2026
